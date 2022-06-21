@@ -85,10 +85,10 @@ img{
 }
 .nav-item.logo,
 .nav-item.cta{
-    flex-grow: 1;
+    flex-basis: calc(100% / 4);
 }
 .nav-item.list{
-    flex-basis: calc(100% / 2);
+    flex-grow: 1;
 }
 .section{
     padding: 40px 0;
